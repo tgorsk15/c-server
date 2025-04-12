@@ -1,16 +1,16 @@
 #include "include/list.hpp"
 
-void delete_item()
+void List::delete_item()
 {
     std::cout << "deleted item";
 }
 
-void add_item()
+void List::add_item()
 {
     std::cout << "Added New Item";
 }
 
-void print_menu()
+void List::print_menu()
 {
     int choice;
 
@@ -20,6 +20,7 @@ void print_menu()
     std::cout << " 3 - Delete from list\n";
     std::cout << " 4 - Quit\n";
 
+    std::cout << "Type in an option:";
     std::cin >> choice;
 
     if (choice == 4) {
