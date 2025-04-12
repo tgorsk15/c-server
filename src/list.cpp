@@ -23,10 +23,10 @@ void print_menu()
     std::cin >> choice;
 
     if (choice == 4) {
-
+        std::cout << "I quit";
     }
     else if (choice == 2) {
-
+        add_item();
     }
     else if (choice == 3) {
         delete_item();
