@@ -4,13 +4,13 @@
 
 # Compiler settings - Can be customized.
 CC = g++
-CXXFLAGS = -std=c++11 -Wall -I$(SRCDIR)
+CXXFLAGS = -std=c++11 -Wall
 LDFLAGS = 
 
 # Makefile settings - Can be customized.
 APPNAME = TestApp
 EXT = .cpp
-SRCDIR = /Users/Tyler/Code/back-end/c-server
+SRCDIR = src
 OBJDIR = obj
 
 ############## Do not change anything from here downwards! #############

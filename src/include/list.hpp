@@ -1,6 +1,8 @@
 #include <iostream>
 
-// class List
-// {
-
-// }
+class List
+{
+    private:
+    protected:
+    public:
+};

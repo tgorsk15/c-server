@@ -1,5 +1,14 @@
-#include "list.hpp"
+#include "include/list.hpp"
 
+void delete_item()
+{
+    std::cout << "deleted item";
+}
+
+void add_item()
+{
+    std::cout << "Added New Item";
+}
 
 void print_menu()
 {
@@ -27,12 +36,4 @@ void print_menu()
     }
 }
 
-void delete_item()
-{
-    std::cout << "deleted item";
-}
 
-void add_item()
-{
-    std::cout << "Added New Item";
-}
